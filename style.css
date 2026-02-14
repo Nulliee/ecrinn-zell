@@ -30,7 +30,10 @@ body {
     font-weight: bold;
     animation:  pulseText 1.5s infinite alternate ease-in-out 3s;
   }
-  
+
+.letter p {
+  font-family: "Times New Roman", Times, serif;
+}
   
   @keyframes pulseText {
     0% {
