@@ -292,6 +292,40 @@ button:hover {
   -webkit-animation: blooming-leaf-left var(--fl-speed) 1.9s backwards;
   animation: blooming-leaf-left var(--fl-speed) 1.9s backwards;
 }
+
+.flower--4 {
+  -webkit-animation: moving-flower-1 4s linear infinite;
+  animation: moving-flower-1 4s linear infinite;
+}
+.flower--4 .flower__line {
+  height: 40vmin;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+.flower--4 .flower__line__leaf--1 {
+  -webkit-animation: blooming-leaf-right var(--fl-speed) 1.6s backwards;
+  animation: blooming-leaf-right var(--fl-speed) 1.6s backwards;
+}
+.flower--4 .flower__line__leaf--2 {
+  -webkit-animation: blooming-leaf-right var(--fl-speed) 1.4s backwards;
+  animation: blooming-leaf-right var(--fl-speed) 1.4s backwards;
+}
+.flower--4 .flower__line__leaf--3 {
+  -webkit-animation: blooming-leaf-left var(--fl-speed) 1.2s backwards;
+  animation: blooming-leaf-left var(--fl-speed) 1.2s backwards;
+}
+.flower--4 .flower__line__leaf--4 {
+  -webkit-animation: blooming-leaf-left var(--fl-speed) 1s backwards;
+  animation: blooming-leaf-left var(--fl-speed) 1s backwards;
+}
+.flower--4 .flower__line__leaf--5 {
+  -webkit-animation: blooming-leaf-right var(--fl-speed) 1.8s backwards;
+  animation: blooming-leaf-right var(--fl-speed) 1.8s backwards;
+}
+.flower--4 .flower__line__leaf--6 {
+  -webkit-animation: blooming-leaf-left var(--fl-speed) 2s backwards;
+  animation: blooming-leaf-left var(--fl-speed) 2s backwards;
+}
 .flower__leafs {
   position: relative;
   -webkit-animation: blooming-flower 2s backwards;
